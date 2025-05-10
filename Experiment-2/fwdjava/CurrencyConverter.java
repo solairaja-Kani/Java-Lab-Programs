@@ -6,9 +6,10 @@ class Currency
 {
 	private String[] currencies = {"INR","USD","EUR"};
 	private double[][] prices= {
-			{1,1/74.25,0.0114}, // INR
-			{74.25,1,0.85}, 	// USD
-			{87.5,1.18,1}		// EUR
+		  //  Ind   USD        EUR
+			{1,    1/74.25, 0.0114}, // INR
+			{74.25,  1,     0.85  }, 	// USD
+			{87.5,  1.18,   1    }		// EUR
 		};
 	
 	int currencyIndex(String country)
